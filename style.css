@@ -9,6 +9,7 @@ body {
 
 h1 {
   font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
 }
 
 h2, a, p {
@@ -48,22 +49,16 @@ p{
 .main-cards {
   background-color: #f4f3f3f0;
   border-radius: 10px;
-  width: 100%;
-  margin: auto;
-  margin-bottom: 5%
-  height: auto;
   font-family: 'Oswald', sans-serif;
   font-weight: lighter;
 }
 
 .container-4 {
-  background-color: #f4f3f3e0;
   font-family: 'Oswald', sans-serif;
   font-weight: lighter;
   text-decoration: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; /* fraction*/
-  border-radius: 10px;
 }
 
 .container-3-simple {
@@ -73,18 +68,22 @@ p{
 }
 
 .container-2-simple {
-  width: 50%;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* fraction*/
+  grid-template-columns: 1fr 2fr 1fr; /* fraction*/
 }
 
 
 .left-margin {
-  margin-left: 10px;
+  margin-left: 5%;
 }
 
 .top-margin {
-  margin-top: 30px;
+  margin-top: 5%;
+}
+
+.bottom-margin {
+  margin-bottom: 4%;
 }
 
 .font-size {
@@ -94,4 +93,41 @@ p{
 .borders {
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.02)
+}
+
+.font-black {
+  color: #000;
+}
+
+#topbar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-radius: 0px;
+}
+#page-content {
+  margin-top: 100px;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.scale-oneforth {
+  width: 25%;
+}
+
+.fit-text {
+  margin-top: 70%;
+  margin-bottom: 3%;
+}
+
+.left-margin-stuff {
+  margin-left: 1%;
+}
+
+.padding-bottom {
+  padding-bottom: 5%;
 }
