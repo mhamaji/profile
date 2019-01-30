@@ -18,7 +18,7 @@ h2, a, p {
 }
 
 a {
-  color: #d2d2d2;
+  color: #b0b0b0;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ p{
 }
 
 .main-cards {
-  background-color: #f4f3f3;
+  background-color: #f4f3f3f0;
   border-radius: 10px;
   width: 100%;
   margin: auto;
@@ -57,7 +57,7 @@ p{
 }
 
 .container-4 {
-  background-color: #f4f3f3;
+  background-color: #f4f3f3e0;
   font-family: 'Oswald', sans-serif;
   font-weight: lighter;
   text-decoration: none;
